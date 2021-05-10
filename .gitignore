@@ -1,0 +1,11 @@
+node_modules/
+build/
+dist/
+tmp/
+
+$*
+.swp
+.DS_Store
+.history/
+.vscode/
+.idea/

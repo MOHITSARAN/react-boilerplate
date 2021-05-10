@@ -1,0 +1,42 @@
+{
+  "name": "isg-ais-client",
+  "version": "1.0.0",
+  "description": "AIS is a intuitive BI application which provides the ability to search, filter and visualize information related to the asset(s) and other entities within Lowe's infrastructure ",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "prod": "webpack serve --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js"
+  },
+  "author": "Asset Inventory Search",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "axios": "^0.21.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router": "^5.2.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "config": "^3.3.6",
+    "css-loader": "^5.2.4",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-security": "^1.4.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.36.1",
+    "webpack-cleanup-plugin": "^0.5.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
