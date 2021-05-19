@@ -1,4 +1,9 @@
-export default (state = {}, action) => {
+export default (
+  state = {
+    who: "Mohit",
+  },
+  action
+) => {
   switch (action.type) {
     case "SIMPLE_ACTION":
       return {
